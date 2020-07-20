@@ -232,7 +232,7 @@ if __name__ == '__main__':
     # single toy example
     example = InputExample(231, 'This is a test', 'Here is another sentence', 0)
     BERT_version = 'cased_L-12_H-768_A-12'
-    tokenizer = create_tokenizer('/Users/nicole/tf-hub-cache/{}/vocab.txt'.format(BERT_version), do_lower_case=True)
+    tokenizer = create_tokenizer('F:/#SYSTEM_FOLDERS_SSD/Desktop/tBERT/tf-hub-cache/{}/vocab.txt'.format(BERT_version), do_lower_case=True)
     max_seq_length = 20
     feature = convert_single_example(0,example, [0,1], max_seq_length, tokenizer)
     feature.label_id

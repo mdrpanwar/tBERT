@@ -48,3 +48,4 @@ Thumbs.db
 __pycache__/
 .ipynb_checkpoints
 .idea/
+tf-hub-cache/
